@@ -1,9 +1,9 @@
 --- 
 title: "Bienvenidos a los cuentos del mundo en llamas"
-date: 2022-05-05
+date: 2022-04-05
 categories: [personal,random] # Categories and subcategories
 tags: [blog]
-descripotion:   # Short summary of the post. 
+description:   # Short summary of the post. 
 toc: false # Table of contents
 comments: false #function if a provider is used
 pin: false # pinned posts
