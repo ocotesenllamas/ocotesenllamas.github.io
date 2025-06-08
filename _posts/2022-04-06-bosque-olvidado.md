@@ -1,12 +1,12 @@
 --- 
 title: "El bosque que ya no está"
-date: 2022-04-22
+date: 2022-04-06
 categories: [ocotes,historia] # Categories and subcategories
 tags: [blog, placitas, historias, oaxaca, reflexiones]
 description:   # Short summary of the post. 
 toc: false # Table of contents
 comments: false #function if a provider is used
-pin: true # pinned posts
+pin: false # pinned posts
 ---
 
 En un lugar del sur del México en un valle entre las puntas de los guajes donde el cielo es azul en primavera, los dioses cobran su tributo en verano con su macuahuitl eléctrico. Los otoños son tranquilos y los inviernos alegres con muchas fiestas por celebrar.
