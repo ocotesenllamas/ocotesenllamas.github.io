@@ -6,7 +6,7 @@ tags: [blog, placitas, historias, oaxaca, reflexiones]
 description:   # Short summary of the post. 
 toc: false # Table of contents
 comments: false #function if a provider is used
-pin: true # pinned posts
+pin: false # pinned posts
 ---
 
 
