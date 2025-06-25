@@ -18,7 +18,6 @@ RUN apt-get update && apt-get install -y \
     libffi-dev \
     zlib1g-dev \
     sudo \
-    vim \
     && rm -rf /var/lib/apt/lists/* \
     && chmod -R 755 /usr/local/lib/ruby/gems \
     && chmod -R 755 /usr/local/bundle
