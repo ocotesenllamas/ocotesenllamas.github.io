@@ -1,0 +1,44 @@
+services:
+  jekyll-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USERNAME: remoteUser
+        USER_UID: 1000
+        USER_GID: 1000
+    container_name: ocotes-jekyll-dev
+    ports:
+      - "4000:4000"  # Jekyll serve
+      - "35729:35729"  # LiveReload
+    volumes:
+      # Código fuente del sitio
+      - .:/home/remoteUser/workspace
+      # Bash history persistente
+      - bash_history:/home/remoteUser/.bash_history_dir
+      # Gems cache
+      - gem_cache:/home/remoteUser/.gem
+      # Bundle cache
+      - bundle_cache:/home/remoteUser/workspace/vendor/bundle
+    environment:
+      - BUNDLE_PATH=/home/remoteUser/workspace/vendor/bundle
+      - BUNDLE_BIN=/home/remoteUser/workspace/vendor/bundle/bin
+      - JEKYLL_ENV=development
+      - GEM_HOME=/home/remoteUser/.gem
+      - GEM_PATH=/home/remoteUser/.gem
+      - BUNDLE_USER_HOME=/home/remoteUser
+      - BUNDLE_USER_CACHE=/home/remoteUser/.bundle
+      - BUNDLE_USER_CONFIG=/home/remoteUser/.bundle/config
+      - BUNDLE_USER_PLUGIN=/home/remoteUser/.bundle/plugin
+    working_dir: /home/remoteUser/workspace
+    stdin_open: true
+    tty: true
+    command: bash
+
+volumes:
+  bash_history:
+    driver: local
+  gem_cache:
+    driver: local
+  bundle_cache:
+    driver: local

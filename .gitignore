@@ -14,9 +14,8 @@
 node_modules/
 .sass-cache/
 
-/.bundle/
-/vendor/bundle
-*.gem
+.bundle/
+vendor/
 
 yarn.lock
 package-lock.json
@@ -26,3 +25,4 @@ _site/
 .jekyll-metadata
 .jekyll-cache/
 .devcontainer/
+docker-compose.override.yml
