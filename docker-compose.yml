@@ -30,6 +30,7 @@ services:
       - BUNDLE_USER_CACHE=/home/remoteUser/.bundle
       - BUNDLE_USER_CONFIG=/home/remoteUser/.bundle/config
       - BUNDLE_USER_PLUGIN=/home/remoteUser/.bundle/plugin
+      - TERM=xterm-256color  
     working_dir: /home/remoteUser/workspace
     stdin_open: true
     tty: true
