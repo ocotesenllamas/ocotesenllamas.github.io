@@ -89,5 +89,5 @@ En fin, esta historia es un homenaje a mi amigo, quien es todo un personaje de e
 
 Y aunque no sé si el chofo sepa que escribo esto, espero que lo lea y sepa que es un personaje importante en la historia de este blog, y que su historia es parte de la memoria colectiva del pueblo, y que aunque el tiempo borre los recuerdos de las personas, las historias como esta pueden perdurar.
 
-La plaga del olvido mientras yo respire no dejará que las historias se pierdan. 
+Ante la plaga del olvido mientras yo respire no dejaré que las historias se pierdan. 
 
