@@ -60,6 +60,7 @@ webmaster_verifications:
 analytics:
   google:
     id: G-5XX1ZGC7BE # fill in your Google Analytics ID
+        
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -219,7 +220,8 @@ exclude:
   - Dockerfile
   - .devcontainer
   - favicon.ico
-
+  - "*.sh"
+  - "*.yml"
 
 jekyll-archives:
   enabled: [categories, tags]
